@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+.login-card , .register-card ,.update-category , .update-food{
+	border-radius: 2px;
+	border-style: groove;
+}
+
+.login-img , .register-img{
+	height: 100px;
+}
+
+.btn-colour{
+	color: white;
+	background-color:#Cf0039;
+}
+
+.navbar-bg{
+	background-color: #Cf0039;
+}
+
+.model-bg{
+	background-color: #Cf0039;
+	color: white;
+}
+
+.category-img{
+	height: 80px;
+}
+
+.category-text{
+	text-transform: uppercase;
+	font-size: larger;	
+}
+
+.mycard :hover{
+	background-color: #Cf0039;
+	transition: 0.3s ease;
+	cursor: pointer;
+	color: white;
+	border-radius: 80%;
+}
+
+.update-category-col{
+	font-style:normal;
+	color: #Cf0039;
+	cursor: pointer;
+	text-shadow: #Cf0039;
+}
+
+.bg-add-col{
+
+background-color:#Cf0039;
+ }
+
+.banner{
+	width: 100%;
+	height: 95vh;
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/food-bg.jpg);
+	background-size:cover;
+	color: white;
+	}
+	
+
+	
+card {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
+    transition: 0.3s;
+ }	
+	
+/*.banner-col{*/
+/*	background-color: black;*/
+/*	cursor: pointer;*/
+/*}	*/
+	
+	
+/*rotate image	*/
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*zoom effect on image*/
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  border-radius: 80%;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.img-rad{
+	border-radius: 2%;
+}
+
+.cart-text{
+	color: #Cf0039;
+	cursor: pointer;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
